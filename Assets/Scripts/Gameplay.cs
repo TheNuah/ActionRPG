@@ -24,7 +24,7 @@ public class Gameplay : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = new Character("PicoChan", 70);
+        player = new Character("PicoChan", 50);
         playerName = GameObject.Find("PlayerName").GetComponent<TextMeshProUGUI>();
         hpBar = GameObject.Find("HP").GetComponent<Image>();
         playerName.text = player.name;
