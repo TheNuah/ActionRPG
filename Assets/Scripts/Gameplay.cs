@@ -49,4 +49,5 @@ public class Gameplay : MonoBehaviour
         Debug.Log(player.name + " received " + dmg + " damage! HP left: " + player.hp);
     }
     // ทดสอบรอบที่1
+    // ทดสอบรอบที่25616
 }
