@@ -64,3 +64,6 @@ public class slimecontroller : MonoBehaviour
         anim.SetBool("isRunning", true); 
     }
 }
+
+
+// one
