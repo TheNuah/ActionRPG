@@ -39,11 +39,11 @@ public class slimecontroller : MonoBehaviour
         {
             StopMoving();   
         }              
-        UpdateAnimation();  
+        UpdateAnimation();
     }
     void MoveToPlayer()
     {
-        if (agent.is)
+        if (isActiveAndEnabled) 
         {
             agent.SetDestination(player.transform.position);
             hasReachedPlayer = false;
@@ -61,6 +61,6 @@ public class slimecontroller : MonoBehaviour
     }
     void UpdateAnimation()
     {
-            anim.SetBool("isRunning", false);
+        anim.SetBool("isRunning", true); 
     }
 }
