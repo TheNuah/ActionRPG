@@ -48,4 +48,5 @@ public class Gameplay : MonoBehaviour
         player.ReceiveDamage(dmg);
         Debug.Log(player.name + " received " + dmg + " damage! HP left: " + player.hp);
     }
+    // ทดสอบรอบที่1
 }
