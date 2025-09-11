@@ -66,3 +66,4 @@ public class SlimeController : MonoBehaviour
         anim.SetBool("Attack", hasReachePlayer);
     }
 }
+// แก้
