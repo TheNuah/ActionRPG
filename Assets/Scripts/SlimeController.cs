@@ -63,7 +63,17 @@ public class SlimeController : MonoBehaviour
 
     void UpdateAnimation()
     {
+<<<<<<< Updated upstream
         anim.SetBool("Attack", hasReachePlayer);
+=======
+        anim.SetBool("Attack", isPlayerClose);
+        bool shouldWalk = isPlayerInRange && !isPlayerClose;
+        anim.SetBool("Walk", shouldWalk);
+
+        // Log for debugging
+        Debug.Log($"Slime Animation: Walk={shouldWalk}, Attack={isPlayerClose}, Distance={distance}");
+        // แก้
+>>>>>>> Stashed changes
     }
 }
 // แก้
